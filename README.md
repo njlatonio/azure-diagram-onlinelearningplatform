@@ -29,3 +29,11 @@ Flow:
 ********************
 
 Diagram:
+![Azure - Scenario 2](https://github.com/user-attachments/assets/a2d3c69e-5fd3-46fa-9953-f44a6a999859)
+
+Explanation: 2 regions used to ensure high availability and to be fault tolerant
+
+- Azure Traffic Manager is a DNS-based traffic load balancer that distributes traffic optimally to services across global Azure regions while providing high availability and responsiveness.
+- Azure load balancer used to spread load across availability zones
+- Virtual machines used for web and app servers
+- PostgreSQL databases used for relational data
